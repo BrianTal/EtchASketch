@@ -1,5 +1,6 @@
 body {
     background: #d2d2e0;
+    height: 100vh;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -34,11 +35,13 @@ button:hover {
 
 .container{
     display: flex;
+    flex: 1;
     flex-direction: column;
     padding: 5px;
     width: 640px;
     height: 640px;
     align-self: center;
+    justify-content: center;
 }
 
 .row{
